@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="lg:col-span-2 mt-6 flex justify-between">
         {/* Solutions */}
         <div>
-          <h6 className="font-medium text-gray-400 underline ">Solutions</h6>
+          <h6 className="font-medium text-gray-400 cursor-pointer underline ">Solutions</h6>
           <ul>
             <li className="py-2 text-sm cursor-pointer">Analytics</li>
             <li className="py-2 text-sm cursor-pointer">Marketing</li>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         {/*Support */}
         <div>
-          <h6 className="font-medium underline text-gray-400">Support</h6>
+          <h6 className="font-medium underline cursor-pointer text-gray-400">Support</h6>
           <ul>
             <li className="py-2 cursor-pointer text-sm">Pricing</li>
             <li className="py-2 cursor-pointer text-sm">Documentation</li>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         {/*Company */}
         <div>
-          <h6 className="font-medium underline text-gray-400">Company</h6>
+          <h6 className="font-medium underline cursor-pointer text-gray-400">Company</h6>
           <ul>
             <li className="py-2 cursor-pointer text-sm">About</li>
             <li className="py-2 cursor-pointer text-sm">Blog</li>
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
         {/*Legal */}
         <div>
-          <h6 className="font-medium underline text-gray-400">Legal</h6>
+          <h6 className="font-medium underline cursor-pointer text-gray-400">Legal</h6>
           <ul>
             <li className="py-2 cursor-pointer text-sm">Claim</li>
             <li className="py-2 cursor-pointer text-sm">Policy</li>
